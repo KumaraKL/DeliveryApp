@@ -51,7 +51,7 @@ protocol DeliveryListsResponseDelegate: class {
 
 class LALDeliveryListsModelController: NSObject {
     
-    private let pageSize = 20
+    private let pageSize = 10
     private var currrentPage = 0
     
     weak var delgeate: DeliveryListsResponseDelegate?

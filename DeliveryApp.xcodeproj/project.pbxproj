@@ -13,6 +13,7 @@
 		A9247BC72159228C000AAFDC /* Alamofire.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = A9247BC121592280000AAFDC /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		A9247BC82159228C000AAFDC /* AlamofireImage.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = A9247BC321592280000AAFDC /* AlamofireImage.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		A9247BC92159228C000AAFDC /* SnapKit.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = A9247BC221592280000AAFDC /* SnapKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A96B67A5215A16FE000AA22B /* launch.png in Resources */ = {isa = PBXBuildFile; fileRef = A96B67A4215A16FE000AA22B /* launch.png */; };
 		A9B43EAF215501D3000E8D4B /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B43EAE215501D3000E8D4B /* Extensions.swift */; };
 		A9B43EB421564EAB000E8D4B /* LALDeliveryDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B43EB321564EAB000E8D4B /* LALDeliveryDetailsViewController.swift */; };
 		A9B43EB621578218000E8D4B /* LALDeleiveryInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B43EB521578218000E8D4B /* LALDeleiveryInfoView.swift */; };
@@ -71,6 +72,7 @@
 		A9247BC221592280000AAFDC /* SnapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SnapKit.framework; path = Carthage/Build/iOS/SnapKit.framework; sourceTree = "<group>"; };
 		A9247BC321592280000AAFDC /* AlamofireImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlamofireImage.framework; path = Carthage/Build/iOS/AlamofireImage.framework; sourceTree = "<group>"; };
 		A95343B12153C05F000ED52B /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = /Users/kumar/NWorkSpace/Lalamove/Carthage/Build/iOS/Alamofire.framework; sourceTree = "<absolute>"; };
+		A96B67A4215A16FE000AA22B /* launch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launch.png; sourceTree = "<group>"; };
 		A9B43EAE215501D3000E8D4B /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		A9B43EB321564EAB000E8D4B /* LALDeliveryDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LALDeliveryDetailsViewController.swift; sourceTree = "<group>"; };
 		A9B43EB521578218000E8D4B /* LALDeleiveryInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LALDeleiveryInfoView.swift; sourceTree = "<group>"; };
@@ -187,7 +189,7 @@
 			isa = PBXGroup;
 			children = (
 				A9B43EBC215834C7000E8D4B /* Style */,
-				A9ED6B5A21522C3C00915C10 /* Frameworks */,
+				A9ED6B5A21522C3C00915C10 /* TempResources */,
 				A9ED6B57215229C900915C10 /* Services */,
 				A9ED6B4821521D5400915C10 /* Delivery */,
 				A9ED6B4921521D9400915C10 /* DeliveryDetails */,
@@ -298,11 +300,12 @@
 			path = Services;
 			sourceTree = "<group>";
 		};
-		A9ED6B5A21522C3C00915C10 /* Frameworks */ = {
+		A9ED6B5A21522C3C00915C10 /* TempResources */ = {
 			isa = PBXGroup;
 			children = (
+				A96B67A4215A16FE000AA22B /* launch.png */,
 			);
-			path = Frameworks;
+			path = TempResources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -410,6 +413,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A96B67A5215A16FE000AA22B /* launch.png in Resources */,
 				A9ED6B242150FB2E00915C10 /* LaunchScreen.storyboard in Resources */,
 				A9ED6B212150FB2E00915C10 /* Assets.xcassets in Resources */,
 			);
